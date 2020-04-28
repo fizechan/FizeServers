@@ -1,11 +1,9 @@
 <?php
 
-namespace fize\misc;
+namespace fize\servers;
 
 /**
  * Description of Win32
- *
- * @author Administrator
  */
 class Win32
 {

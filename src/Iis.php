@@ -1,11 +1,9 @@
 <?php
 
-namespace fize\misc;
+namespace fize\servers;
 
 /**
  * Description of IIS
- *
- * @author Administrator
  */
 class Iis
 {

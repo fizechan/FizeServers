@@ -1,13 +1,11 @@
 <?php
 
-namespace fize\misc;
+namespace fize\servers;
 
 /**
- * Description of Win32
- *
- * @author Administrator
+ * Description of SOAP
  */
-class Win32
+class Soap
 {
     //put your code here
 }

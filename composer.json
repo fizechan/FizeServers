@@ -1,0 +1,23 @@
+{
+  "name": "fize/servers",
+  "description": "服务器相关类库。",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "FizeChan",
+      "email": "chenfengzhan@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "ext-apache": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~9.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "fize\\servers\\": "src"
+    }
+  }
+}

@@ -1,11 +1,9 @@
 <?php
 
-namespace fize\misc;
+namespace fize\servers;
 
 /**
  * Description of NSAPI
- *
- * @author Administrator
  */
 class Nsapi
 {

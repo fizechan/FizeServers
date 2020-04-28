@@ -1,14 +1,11 @@
 <?php
+
+namespace fize\servers;
+
 /**
  * 针对apache服务器的相关扩展
- *
- * @author FizeChan
- * @version V1.0.0.20170119
- * @todo 尚未测试
+ * @todo    尚未测试
  */
-
-namespace fize\misc;
-
 class Apache
 {
 
@@ -43,8 +40,8 @@ class Apache
 
     /**
      * 获取 Apache subprocess_env 变量
-     * @param string $variable Apache 环境变量名
-     * @param bool $walk_to_top 是否获取对Apache各层可用的顶层变量
+     * @param string $variable    Apache 环境变量名
+     * @param bool   $walk_to_top 是否获取对Apache各层可用的顶层变量
      * @return string
      */
     public static function getenv($variable, $walk_to_top = false)
@@ -64,7 +61,7 @@ class Apache
 
     /**
      * 取得或设置 apache 请求记录
-     * @param string $note_name note名。
+     * @param string $note_name  note名。
      * @param string $note_value note值。
      * @return string 如果未能获取记录，则返回 FALSE。
      */
@@ -106,9 +103,9 @@ class Apache
 
     /**
      * 设置 Apache 子进程环境变量
-     * @param string $variable 将被设置的环境变量。
-     * @param string $value 新 variable 值。
-     * @param bool $walk_to_top 是否将所设置的顶层变量应用到所有 Apache 层。
+     * @param string $variable    将被设置的环境变量。
+     * @param string $value       新 variable 值。
+     * @param bool   $walk_to_top 是否将所设置的顶层变量应用到所有 Apache 层。
      * @return bool
      */
     public static function setenv($variable, $value, $walk_to_top = false)
