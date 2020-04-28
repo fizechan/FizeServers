@@ -9,10 +9,10 @@
     }
   ],
   "require": {
-    "php": ">=7.0.0",
-    "ext-apache": "*"
+    "php": ">=7.0.0"
   },
   "require-dev": {
+    "ext-apache": "*",
     "phpunit/phpunit": "~9.1.0"
   },
   "autoload": {
