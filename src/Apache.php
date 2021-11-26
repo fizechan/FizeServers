@@ -1,6 +1,6 @@
 <?php
 
-namespace fize\servers;
+namespace Fize\Servers;
 
 /**
  * 针对apache服务器的相关扩展

@@ -1,6 +1,6 @@
 <?php
 
-namespace fize\servers;
+namespace Fize\Servers;
 
 /**
  * Description of Win32

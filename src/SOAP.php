@@ -1,11 +1,11 @@
 <?php
 
-namespace fize\servers;
+namespace Fize\Servers;
 
 /**
  * Description of SOAP
  */
-class Soap
+class SOAP
 {
     //put your code here
 }

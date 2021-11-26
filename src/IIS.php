@@ -1,11 +1,11 @@
 <?php
 
-namespace fize\servers;
+namespace Fize\Servers;
 
 /**
  * Description of IIS
  */
-class Iis
+class IIS
 {
     //put your code here
 }

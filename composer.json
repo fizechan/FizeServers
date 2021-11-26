@@ -8,16 +8,23 @@
       "email": "chenfengzhan@qq.com"
     }
   ],
+  "autoload": {
+    "psr-4": {
+      "Fize\\Servers\\": "src"
+    }
+  },
   "require": {
     "php": ">=7.0.0"
   },
-  "require-dev": {
-    "ext-apache": "*",
-    "phpunit/phpunit": "~9.1.0"
+  "suggest": {
+    "ext-apache": "*"
   },
-  "autoload": {
+  "autoload-dev": {
     "psr-4": {
-      "fize\\servers\\": "src"
+      "Tests\\": "tests"
     }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5.0"
   }
 }
